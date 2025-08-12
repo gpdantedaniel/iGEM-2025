@@ -1,0 +1,7 @@
+*fasta filter=lfs diff=lfs merge=lfs -text
+*arrow filter=lfs diff=lfs merge=lfs -text
+*csv filter=lfs diff=lfs merge=lfs -text
+*.fasta filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.arrow filter=lfs diff=lfs merge=lfs -text
+*.arrow[[:space:]]*.csv[[:space:]]*.fasta filter=lfs diff=lfs merge=lfs -text
